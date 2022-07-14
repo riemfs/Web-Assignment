@@ -1,0 +1,153 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color:black
+}
+
+.logo{
+    border-radius: 100%;
+    padding: 15px;
+    font-weight: bold;
+    text-shadow:2px 2px 1px #262424;
+    background:linear-gradient(to bottom right, black 65%, grey 100%);
+	background-color:#94a187;
+	border-radius:18px;
+    color: white;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262424;
+}
+
+.navbarlist{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    float: left;
+    display: table;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+}
+
+.navbar .selected{
+    background-color: #29524A;
+}
+
+.navbarlist:hover{
+    background-color: #94A187;
+}
+
+.searchbar{
+    float: right;
+    padding: 14.25px;
+    border: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    font-size: 17px;
+    background-color: #262424;
+}
+
+.shopButton {
+	box-shadow: 3px 4px 0px 0px #262424;
+	background:linear-gradient(to bottom, #29524A 35%, #94a187 100%);
+	background-color:#94a187;
+	border-radius:18px;
+	border:1px solid #262424;
+	display:inline-block;
+	color: white;
+	font-size:23px;
+	font-weight:bold;
+	padding:16px 40px;
+	text-shadow:3px 3px 1px #262424;
+}
+
+.shopButton:hover {
+	background:linear-gradient(to bottom, #29524A 5%, #94a187 100%);
+	background-color:#e8998d;
+}
+
+button {
+	box-shadow:inset 0px 0px 0px 0px #f7c5c0;
+	background:linear-gradient(to bottom, #fc8d83 45%, #e4685d 100%);
+	background-color:#fc8d83;
+	border-radius:5px;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+	padding:5px 24px;
+	text-decoration:none;
+	text-shadow:1px 2px 0px #b23e35;
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	background-color:#e4685d;
+}
+
+.product{
+    border-radius: 5px;
+    border: 2px solid grey;
+    background: linear-gradient(to bottom right, white 50%, #f7c5c0 100%);
+}
+
+td{
+    border: 2px solid;
+}
+
+footer{
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    font-weight: 500;
+    background-color: #E8998D;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.login-form {
+    background: #fff;
+    width: 500px;
+    margin: 65px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+  }
+  .login-form h1 {
+    padding: 35px 35px 0 35px;
+    font-weight: 300;
+  }
+  .login-form .content {
+    padding: 35px;
+    text-align: center;
+  }
+  .login-form .input-field {
+    padding: 12px 5px;
+  }
+  .login-form .input-field input {
+    font-size: 16px;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid #747474;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+  }
+  .login-form .input-field input:focus {
+    border-color: #222;
+  }
+
+  .login-form .action button {
+    width: 100%;
+    padding: 22px;
+  }

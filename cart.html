@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="scripts/cart.js" async></script>
+        <script src="scripts/checkout.js" async></script>
+        <title>
+            Checkout
+        </title>
+    </head>
+    
+    <body>
+        <div>
+            <h1>
+                <a href="index.html" class="logo">PP Tech</a>
+            </h1>
+        </div>
+        
+        <nav>
+            <div>
+                <ul class="navbar">
+                    <li><a href="index.html" class="navbarlist">Home</a></li>
+                    <li><a href="product.html" class="navbarlist">Shop</a></li>
+                    <li><a href="contact.html" class="navbarlist">Contact Us</a></li>
+                    <li><a href="cart.html" class="navbarlist selected">Shopping Cart</a></li>
+                    <li><a href="login.html" class="navbarlist">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+            
+        <main>
+            <div>
+                <h1>Shopping Cart</h1>
+                <hr>
+            </div>
+            <div class="product-container">
+
+            </div>
+            <div class="total">
+
+            </div>
+            <div>
+                <hr> 
+                <label for = "fname" id="fnamelabel">First Name*</label><br>
+                <input type = "text" id = "fname" name = "fname"><br>
+                <label for = "lname" id="lnamelabel">Last Name*</label><br>
+                <input type = "text" id = "lname" name = "lname"><br>
+                <label for = "email" id ="emaillabel">Email*</label><br>
+                <input type = "text" id = "email" name = "email"><br>
+                <label for = "contactnumber" id="contactnumberlabel">Contact Number*</label><br>
+                <input type = "text" id = "contactnumber" name = "contactnumber"><br>
+                <label for = "address" id="addresslabel">Delivery Address*</label><br>
+                <input type = "text" id = "address" name = "address"><br><br>
+                <button id="checkout-btn">Checkout</button>
+            </div>
+        </main>
+
+        <footer>
+            <div>PP Tech™</div>
+        </footer>
+    </body>
+    
+</html>
